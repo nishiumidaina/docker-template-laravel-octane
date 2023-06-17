@@ -1,8 +1,9 @@
 version: '3.8'
 services:
   app:
-    build: ./docker/php-octane
+    build: ./docker/php-swoole
+    working_dir: '/var/www/app'
     ports:
       - "8000:8000"
     volumes:
-      - .:/var/www/html
+      - .:/var/www/app
