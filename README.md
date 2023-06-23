@@ -11,7 +11,7 @@ docker compose up -d --build
 ```
 docker container exec -it docker-template-laravel-octane-app-1 bash
 ```
-3.ライブライをインストール
+3.モジュールをインストール
 ```
 composer install
 ```
