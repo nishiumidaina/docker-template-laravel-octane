@@ -1,5 +1,5 @@
 # docker-template-laravel-octane
-Laravel Octaneのdockerテンプレート。  
+Laravel Octane(Swoole版)のテンプレート。  
 ## URL  
 ローカル：[http://localhost:8000](http://localhost:8000)  
 ## 環境構築
